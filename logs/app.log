@@ -1,0 +1,185 @@
+2025-04-02 12:25:57 INFO  [background-preinit] o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+2025-04-02 12:25:57 INFO  [main] c.u.a.controller.AuthControllerTest - Starting AuthControllerTest using Java 17.0.10 with PID 25184 (started by pritam.singh in C:\Users\pritam.singh\Downloads\usercrud)
+2025-04-02 12:25:57 DEBUG [main] c.u.a.controller.AuthControllerTest - Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-04-02 12:25:57 INFO  [main] c.u.a.controller.AuthControllerTest - No active profile set, falling back to 1 default profile: "default"
+2025-04-02 12:26:03 INFO  [main] o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2025-04-02 12:26:03 INFO  [main] o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-04-02 12:26:03 INFO  [main] o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2025-04-02 12:26:03 INFO  [main] o.s.t.w.s.TestDispatcherServlet - Completed initialization in 2 ms
+2025-04-02 12:26:03 INFO  [main] c.u.a.controller.AuthControllerTest - Started AuthControllerTest in 7.275 seconds (process running for 9.314)
+2025-04-02 12:26:04 INFO  [main] c.user.api.controller.AuthController - Login request for email: celvin.kelin@example.co.in
+2025-04-02 12:26:04 INFO  [main] c.user.api.controller.AuthController - Login request for email: celvin.kelin@example.co.in
+2025-04-02 12:26:04 INFO  [main] c.user.api.controller.AuthController - Token issued for: celvin.kelin@example.co.in
+2025-04-02 12:26:31 INFO  [background-preinit] o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+2025-04-02 12:26:31 INFO  [restartedMain] com.user.api.UserCrudApplication - Starting UserCrudApplication using Java 17.0.10 with PID 45344 (C:\Users\pritam.singh\Downloads\usercrud\target\classes started by pritam.singh in C:\Users\pritam.singh\Downloads\usercrud)
+2025-04-02 12:26:31 DEBUG [restartedMain] com.user.api.UserCrudApplication - Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-04-02 12:26:31 INFO  [restartedMain] com.user.api.UserCrudApplication - No active profile set, falling back to 1 default profile: "default"
+2025-04-02 12:26:31 INFO  [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-04-02 12:26:31 INFO  [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-04-02 12:26:34 INFO  [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-04-02 12:26:34 INFO  [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 133 ms. Found 1 JPA repository interface.
+2025-04-02 12:26:36 INFO  [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8090 (http)
+2025-04-02 12:26:36 INFO  [restartedMain] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8090"]
+2025-04-02 12:26:36 INFO  [restartedMain] o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-04-02 12:26:36 INFO  [restartedMain] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-04-02 12:26:36 INFO  [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-04-02 12:26:36 INFO  [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 4489 ms
+2025-04-02 12:26:36 INFO  [restartedMain] o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-04-02 12:26:36 INFO  [restartedMain] org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.8.Final
+2025-04-02 12:26:36 INFO  [restartedMain] o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-04-02 12:26:37 INFO  [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-04-02 12:26:37 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-04-02 12:26:38 INFO  [restartedMain] com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4f7107f3
+2025-04-02 12:26:38 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-04-02 12:26:38 WARN  [restartedMain] org.hibernate.orm.deprecation - HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-04-02 12:26:38 WARN  [restartedMain] org.hibernate.orm.deprecation - HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2025-04-02 12:26:38 INFO  [restartedMain] o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-04-02 12:26:39 INFO  [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-04-02 12:26:39 INFO  [restartedMain] o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-04-02 12:26:40 DEBUG [restartedMain] c.u.a.s.JwtAuthenticationFilter - Filter 'jwtAuthenticationFilter' configured for use
+2025-04-02 12:26:40 INFO  [restartedMain] o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with UserDetailsService bean with name userDetailsServiceImpl
+2025-04-02 12:26:40 WARN  [restartedMain] o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-04-02 12:26:42 INFO  [restartedMain] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-04-02 12:26:42 INFO  [restartedMain] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8090"]
+2025-04-02 12:26:42 INFO  [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8090 (http) with context path '/'
+2025-04-02 12:26:42 INFO  [restartedMain] com.user.api.UserCrudApplication - Started UserCrudApplication in 11.115 seconds (process running for 11.812)
+2025-04-02 12:26:51 INFO  [http-nio-8090-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-04-02 12:26:51 INFO  [http-nio-8090-exec-2] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-04-02 12:26:51 INFO  [http-nio-8090-exec-2] o.s.web.servlet.DispatcherServlet - Completed initialization in 10 ms
+2025-04-02 12:26:52 INFO  [http-nio-8090-exec-8] o.s.api.AbstractOpenApiResource - Init duration for springdoc-openapi is: 840 ms
+2025-04-02 12:40:29 INFO  [background-preinit] o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+2025-04-02 12:40:29 INFO  [restartedMain] com.user.api.UserCrudApplication - Starting UserCrudApplication using Java 17.0.10 with PID 51984 (C:\Users\pritam.singh\Downloads\usercrud\target\classes started by pritam.singh in C:\Users\pritam.singh\Downloads\usercrud)
+2025-04-02 12:40:29 DEBUG [restartedMain] com.user.api.UserCrudApplication - Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-04-02 12:40:29 INFO  [restartedMain] com.user.api.UserCrudApplication - No active profile set, falling back to 1 default profile: "default"
+2025-04-02 12:40:29 INFO  [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-04-02 12:40:29 INFO  [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-04-02 12:40:31 INFO  [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-04-02 12:40:31 INFO  [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 155 ms. Found 1 JPA repository interface.
+2025-04-02 12:40:33 INFO  [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8090 (http)
+2025-04-02 12:40:33 INFO  [restartedMain] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8090"]
+2025-04-02 12:40:33 INFO  [restartedMain] o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-04-02 12:40:33 INFO  [restartedMain] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-04-02 12:40:33 INFO  [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-04-02 12:40:33 INFO  [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3824 ms
+2025-04-02 12:40:34 INFO  [restartedMain] o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-04-02 12:40:34 INFO  [restartedMain] org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.8.Final
+2025-04-02 12:40:34 INFO  [restartedMain] o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-04-02 12:40:35 INFO  [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-04-02 12:40:36 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-04-02 12:40:36 INFO  [restartedMain] com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@561fa0c7
+2025-04-02 12:40:36 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-04-02 12:40:36 WARN  [restartedMain] org.hibernate.orm.deprecation - HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-04-02 12:40:36 WARN  [restartedMain] org.hibernate.orm.deprecation - HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2025-04-02 12:40:36 INFO  [restartedMain] o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-04-02 12:40:39 INFO  [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-04-02 12:40:39 INFO  [restartedMain] o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-04-02 12:40:40 DEBUG [restartedMain] c.u.a.s.JwtAuthenticationFilter - Filter 'jwtAuthenticationFilter' configured for use
+2025-04-02 12:40:40 INFO  [restartedMain] o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with UserDetailsService bean with name userDetailsServiceImpl
+2025-04-02 12:40:40 WARN  [restartedMain] o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-04-02 12:40:42 INFO  [restartedMain] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-04-02 12:40:42 INFO  [restartedMain] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8090"]
+2025-04-02 12:40:42 INFO  [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8090 (http) with context path '/'
+2025-04-02 12:40:42 INFO  [restartedMain] com.user.api.UserCrudApplication - Started UserCrudApplication in 13.442 seconds (process running for 13.994)
+2025-04-02 12:41:33 INFO  [http-nio-8090-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-04-02 12:41:33 INFO  [http-nio-8090-exec-1] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-04-02 12:41:33 INFO  [http-nio-8090-exec-1] o.s.web.servlet.DispatcherServlet - Completed initialization in 4 ms
+2025-04-02 12:41:34 INFO  [http-nio-8090-exec-1] c.user.api.controller.AuthController - Login request for email: celvin.kelin@example.co.in
+2025-04-02 12:41:35 INFO  [http-nio-8090-exec-1] c.user.api.controller.AuthController - Token issued for: celvin.kelin@example.co.in
+2025-04-02 12:42:33 INFO  [http-nio-8090-exec-3] com.user.api.service.UserService - Registering new user with email: sargam.chabra@example.co.in
+2025-04-02 12:42:33 WARN  [http-nio-8090-exec-3] com.user.api.service.UserService - Attempt to register user with existing email: sargam.chabra@example.co.in
+2025-04-02 12:42:33 WARN  [http-nio-8090-exec-3] o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [java.lang.IllegalArgumentException: Email is already in use.]
+2025-04-02 12:44:40 WARN  [http-nio-8090-exec-7] o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [java.lang.IllegalArgumentException: User not found with email: sargam.chabra@example.co.ind]
+2025-04-02 12:44:49 WARN  [http-nio-8090-exec-6] o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [java.lang.IllegalArgumentException: User not found with email: sargam.chabra@example.co.in ]
+2025-04-02 12:46:01 INFO  [http-nio-8090-exec-1] com.user.api.service.UserService - Registering new user with email: pritam.singh@example.com
+2025-04-02 12:46:01 DEBUG [http-nio-8090-exec-1] com.user.api.service.UserService - User persisted with ID: 18
+2025-04-02 12:47:53 INFO  [http-nio-8090-exec-8] c.user.api.controller.AuthController - Login request for email: bob.johnson@example.com
+2025-04-02 12:47:53 WARN  [http-nio-8090-exec-8] o.s.s.c.bcrypt.BCryptPasswordEncoder - Encoded password does not look like BCrypt
+2025-04-02 12:47:53 WARN  [http-nio-8090-exec-8] o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.security.authentication.BadCredentialsException: Bad credentials]
+2025-04-02 12:48:21 INFO  [http-nio-8090-exec-7] c.user.api.controller.AuthController - Login request for email: bob.johnson@example.com
+2025-04-02 12:48:21 INFO  [http-nio-8090-exec-7] c.user.api.controller.AuthController - Token issued for: bob.johnson@example.com
+2025-04-02 12:49:41 INFO  [http-nio-8090-exec-4] o.s.api.AbstractOpenApiResource - Init duration for springdoc-openapi is: 365 ms
+2025-04-02 15:29:12 INFO  [background-preinit] o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+2025-04-02 15:29:12 INFO  [main] c.u.a.controller.AuthControllerTest - Starting AuthControllerTest using Java 17.0.10 with PID 54468 (started by pritam.singh in C:\Users\pritam.singh\git\repository\usercrud)
+2025-04-02 15:29:12 DEBUG [main] c.u.a.controller.AuthControllerTest - Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-04-02 15:29:12 INFO  [main] c.u.a.controller.AuthControllerTest - No active profile set, falling back to 1 default profile: "default"
+2025-04-02 15:29:18 INFO  [main] o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2025-04-02 15:29:18 INFO  [main] o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-04-02 15:29:18 INFO  [main] o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2025-04-02 15:29:18 INFO  [main] o.s.t.w.s.TestDispatcherServlet - Completed initialization in 3 ms
+2025-04-02 15:29:18 INFO  [main] c.u.a.controller.AuthControllerTest - Started AuthControllerTest in 7.351 seconds (process running for 9.684)
+2025-04-02 15:29:19 INFO  [main] c.user.api.controller.AuthController - Login request for email: celvin.kelin@example.co.in
+2025-04-02 15:29:19 INFO  [main] c.user.api.controller.AuthController - Login request for email: celvin.kelin@example.co.in
+2025-04-02 15:29:19 INFO  [main] c.user.api.controller.AuthController - Token issued for: celvin.kelin@example.co.in
+2025-04-02 15:42:04 INFO  [background-preinit] o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+2025-04-02 15:42:04 INFO  [main] c.u.a.controller.AuthControllerTest - Starting AuthControllerTest using Java 17.0.10 with PID 61044 (started by pritam.singh in C:\Users\pritam.singh\Desktop\usercrud)
+2025-04-02 15:42:04 DEBUG [main] c.u.a.controller.AuthControllerTest - Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-04-02 15:42:04 INFO  [main] c.u.a.controller.AuthControllerTest - No active profile set, falling back to 1 default profile: "default"
+2025-04-02 15:42:09 INFO  [main] o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2025-04-02 15:42:10 INFO  [main] o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-04-02 15:42:10 INFO  [main] o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2025-04-02 15:42:10 INFO  [main] o.s.t.w.s.TestDispatcherServlet - Completed initialization in 4 ms
+2025-04-02 15:42:10 INFO  [main] c.u.a.controller.AuthControllerTest - Started AuthControllerTest in 6.976 seconds (process running for 9.301)
+2025-04-02 15:42:10 INFO  [main] c.user.api.controller.AuthController - Login request for email: celvin.kelin@example.co.in
+2025-04-02 15:42:10 INFO  [main] c.user.api.controller.AuthController - Login request for email: celvin.kelin@example.co.in
+2025-04-02 15:42:10 INFO  [main] c.user.api.controller.AuthController - Token issued for: celvin.kelin@example.co.in
+2025-04-02 15:42:29 INFO  [background-preinit] o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+2025-04-02 15:42:30 INFO  [restartedMain] com.user.api.UserCrudApplication - Starting UserCrudApplication using Java 17.0.10 with PID 20972 (C:\Users\pritam.singh\Desktop\usercrud\target\classes started by pritam.singh in C:\Users\pritam.singh\Desktop\usercrud)
+2025-04-02 15:42:30 DEBUG [restartedMain] com.user.api.UserCrudApplication - Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-04-02 15:42:30 INFO  [restartedMain] com.user.api.UserCrudApplication - No active profile set, falling back to 1 default profile: "default"
+2025-04-02 15:42:30 INFO  [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-04-02 15:42:30 INFO  [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-04-02 15:42:32 INFO  [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-04-02 15:42:32 INFO  [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 174 ms. Found 1 JPA repository interface.
+2025-04-02 15:42:34 INFO  [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8090 (http)
+2025-04-02 15:42:34 INFO  [restartedMain] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8090"]
+2025-04-02 15:42:34 INFO  [restartedMain] o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-04-02 15:42:34 INFO  [restartedMain] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-04-02 15:42:35 INFO  [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-04-02 15:42:35 INFO  [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 4909 ms
+2025-04-02 15:42:35 INFO  [restartedMain] o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-04-02 15:42:35 INFO  [restartedMain] org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.8.Final
+2025-04-02 15:42:35 INFO  [restartedMain] o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-04-02 15:42:36 INFO  [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-04-02 15:42:36 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-04-02 15:42:36 INFO  [restartedMain] com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@16742800
+2025-04-02 15:42:36 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-04-02 15:42:36 WARN  [restartedMain] org.hibernate.orm.deprecation - HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-04-02 15:42:36 WARN  [restartedMain] org.hibernate.orm.deprecation - HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2025-04-02 15:42:37 INFO  [restartedMain] o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-04-02 15:42:38 INFO  [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-04-02 15:42:38 INFO  [restartedMain] o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-04-02 15:42:39 DEBUG [restartedMain] c.u.a.s.JwtAuthenticationFilter - Filter 'jwtAuthenticationFilter' configured for use
+2025-04-02 15:42:39 INFO  [restartedMain] o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with UserDetailsService bean with name userDetailsServiceImpl
+2025-04-02 15:42:40 WARN  [restartedMain] o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-04-02 15:42:42 INFO  [restartedMain] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-04-02 15:42:42 INFO  [restartedMain] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8090"]
+2025-04-02 15:42:42 INFO  [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8090 (http) with context path '/'
+2025-04-02 15:42:42 INFO  [restartedMain] com.user.api.UserCrudApplication - Started UserCrudApplication in 13.032 seconds (process running for 13.593)
+2025-04-02 15:42:56 INFO  [http-nio-8090-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-04-02 15:42:56 INFO  [http-nio-8090-exec-2] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-04-02 15:42:56 INFO  [http-nio-8090-exec-2] o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2025-04-02 15:42:57 INFO  [http-nio-8090-exec-2] c.user.api.controller.AuthController - Login request for email: pritam.singh@example.com
+2025-04-02 15:42:57 INFO  [http-nio-8090-exec-2] c.user.api.controller.AuthController - Token issued for: pritam.singh@example.com
+2025-04-02 15:43:00 INFO  [http-nio-8090-exec-3] c.user.api.controller.AuthController - Login request for email: pritam.singh@example.com
+2025-04-02 15:43:00 INFO  [http-nio-8090-exec-3] c.user.api.controller.AuthController - Token issued for: pritam.singh@example.com
